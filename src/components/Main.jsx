@@ -1,12 +1,11 @@
-import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import backgroundImage from './../assets/main_background.png'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Main = () => {
     return (
-        <div id='main'>
-            <img className='w-full h-screen object-cover object-left scale-x-[-1]' src={backgroundImage} />
+        <div id='main' className='z-0'>
+            <img className='w-full h-screen relative object-cover object-center scale-x-[-1] z-[-99]' src={backgroundImage} />
             <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[1000px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>My name is Taewoo Hong</h1>
