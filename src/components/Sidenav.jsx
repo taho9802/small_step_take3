@@ -21,7 +21,7 @@ const Sidenav = () => {
                             <span className='pl-4'>Home</span>
                         </a>
                         <a onClick={handleNav} href='#about' className='w-[75%] flex justify-center items-center rounded-full show-lg bg-gray-200 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:bg-gray-300'>
-                            <GrProjects size={20} />
+                            <BsPerson size={20} />
                             <span className='pl-4'>about</span>
                         </a>
                         <a onClick={handleNav} href='#projects' className='w-[75%] flex justify-center items-center rounded-full show-lg bg-gray-200 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:bg-gray-300'>
@@ -29,7 +29,7 @@ const Sidenav = () => {
                             <span className='pl-4'>Projects</span>
                         </a>
                         <a onClick={handleNav} href='#resume' className='w-[75%] flex justify-center items-center rounded-full show-lg bg-gray-200 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:bg-gray-300'>
-                            <BsPerson size={20} />
+                            <GrProjects size={20} />
                             <span className='pl-4'>Resume</span>
                         </a>
                         <a onClick={handleNav} href='#contact' className='w-[75%] flex justify-center items-center rounded-full show-lg bg-gray-200 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 hover:bg-gray-300'>
