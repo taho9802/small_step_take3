@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation'
 import backgroundImage from './../assets/background2.jpg'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Main = () => {
     return (
@@ -30,9 +30,12 @@ const Main = () => {
                     />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaInstagram className  size={20} color='white'/>
-                        <FaFacebook  className  size={20} color='white'/>
-                        <FaLinkedin className  size={20} color='white'/>
+                        <a href='https://www.linkedin.com/in/taewoo-hong' target='_blank'>
+                            <FaLinkedin size={20} color='white'/>
+                        </a>
+                        <a href='https://github.com/taho9802' target='_blank'>
+                            <FaGithub size={20} color='white'/> 
+                        </a>
                     </div>
                 </div>
             </div>
