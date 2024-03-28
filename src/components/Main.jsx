@@ -30,10 +30,10 @@ const Main = () => {
                     />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <a href='https://www.linkedin.com/in/taewoo-hong' target='_blank'>
+                        <a href='https://www.linkedin.com/in/taewoo-hong' title='Go to LinkedIn' target='_blank'>
                             <FaLinkedin size={20} color='white'/>
                         </a>
-                        <a href='https://github.com/taho9802' target='_blank'>
+                        <a href='https://github.com/taho9802' title='Go to Github' target='_blank'>
                             <FaGithub size={20} color='white'/> 
                         </a>
                     </div>
